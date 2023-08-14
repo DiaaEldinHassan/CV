@@ -1,0 +1,110 @@
+
+.top
+{
+  background-color: #E9EFFFff;
+  text-align: center;
+}
+.name
+{
+  font-family: 'Pacifico', cursive;
+  display: block;
+}
+div[class="name"] > h4
+{
+  font-family: 'Handjet', cursive;
+}
+div[class="name"] > img[alt="top cloud"]
+{
+  width: 10%;
+  height: 10%;
+  position: relative;
+  left: 200px;
+}
+div[class="name"] > img[alt="bottom cloud"]
+{
+  width: 10%;
+  height: 10%;
+  position: relative;
+  right: 200px;
+}
+div > img[alt="computer"]
+{
+height: 50%;
+width: 50%;
+}
+.mid
+{
+  text-align: center;
+}
+div > img[alt="boy on computer"]
+{
+  margin-top: 30px;
+  height: 15%;
+  width: 15%;
+}
+div[class="container-fluid mid"]>h5
+{
+   margin: auto !important;
+   width: 50%;
+   padding: 20px 10px;
+}
+hr
+{
+  width: 8%;
+  border-top: 10px dotted #6776ECff !important;
+ margin: auto !important;
+}
+.bot
+{
+margin-left: 10px !important;
+}
+li
+{
+  font-size: 16px;
+}
+div[class="container-fluid bot"]>div
+{
+  width: 20%;
+  border-bottom: 3px solid black;
+  margin-bottom: 10px;
+}
+.carousel
+{
+  width: 50% !important;
+  margin: auto !important;
+  padding-bottom: 20px !important;
+}
+.end
+{
+  text-align: center;
+  display: grid;
+}
+.carousel > .carousel-inner > .carousel-item > a>img
+{
+  width:240px; 
+    height:300px;
+}
+footer
+{
+  background-color: #8493E6ff;
+  text-align: center;
+  height: 100px ;
+  margin-top: 20px;
+}
+i
+{
+  color: black;
+  padding: 5px;
+}
+.foot
+{
+  padding-top: 40px;
+}
+.carousel-control-next-icon
+{
+  filter: invert(50%);
+}
+.carousel-control-prev-icon
+{
+  filter: invert(50%);
+}
