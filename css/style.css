@@ -108,3 +108,31 @@ i
 {
   filter: invert(50%);
 }
+@media screen and (max-width:500px) {
+  div[class="name"] > img[alt="top cloud"]
+{
+  width: 10%;
+  height: 10%;
+  position: relative;
+  left: 80px;
+}
+div[class="name"] > img[alt="bottom cloud"]
+{
+  width: 10%;
+  height: 10%;
+  position: relative;
+  right: 80px;
+}
+div[class="container-fluid mid"]>h5
+{
+   margin: auto !important;
+   width: 100%;
+   padding: 20px 10px;
+}
+div[class="container-fluid bot"]>div
+{
+  width: 30%;
+  border-bottom: 3px solid black;
+  margin-bottom: 10px;
+}
+}
